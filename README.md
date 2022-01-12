@@ -1,2 +1,2 @@
-# FdF_image_generator
+# FdF_file_generator
 .jpg > .fdf
