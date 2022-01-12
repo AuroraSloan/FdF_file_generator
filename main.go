@@ -23,6 +23,7 @@ func main() {
 	// add aspect ratio logic
 	for y := 0; y < hght; y++ {
 		for x := 0; x < wid; x++ {
+			//fix color issue
 			col := rgbToColor(jpgimg.At(x, y).RGBA()) / 4
 			newimg.WriteString(fmt.Sprint(col))
 			if x < wid-1 {
